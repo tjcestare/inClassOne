@@ -1,3 +1,51 @@
 body, html {
   font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color:#262626;
+}
+
+#navigation {
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+}
+
+#navigation ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#navigation li {
+  display: inline;
+}
+
+#navigation a {
+  text-decoration: none;
+  color:#262626;
+  display: block;
+}
+
+#navigation a:hover {
+  color:blue;
+}
+
+.maincontent {
+  font-size: 12px;
+  color: #262626;
+  text-align: center;
+}
+
+#forms {
+  padding-top:25px;
+}
+
+footer a {
+  text-decoration: none;
+  color:#262626;
+}
+
+footer a:hover {
+  color:blue;
 }
